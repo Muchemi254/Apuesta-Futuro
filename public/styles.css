@@ -207,8 +207,7 @@ container1 img {
 .msg-inbox {
     border: 1px solid #ccc;
     overflow: auto;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+   
 }
 
 
