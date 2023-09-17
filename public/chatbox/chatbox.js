@@ -81,7 +81,8 @@ sendMessageButton.addEventListener("click", function () {
         timestamp: timestamp,
         messageId: messageId,
         senderUserId:userUid,
-        senderIdentifier: senderIdentifier
+        senderIdentifier: senderIdentifier,
+        read: false,
         // Other user profile data...
       };
 
