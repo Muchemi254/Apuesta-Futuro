@@ -59,14 +59,14 @@ function initializePage() {
 
   // Function to open the chat box
   function openChatPopup() {
-    $(".chat-popup").slideDown("slow", function () {
+    $(".chat-popup").slideDown("fast", function () {
       isChatOpen = true;
     });
   }
 
   // Function to close the chat box
   function closeChatPopup() {
-    $(".chat-popup").slideUp("slow", function () {
+    $(".chat-popup").slideUp("fast", function () {
       isChatOpen = false;
     });
   }
